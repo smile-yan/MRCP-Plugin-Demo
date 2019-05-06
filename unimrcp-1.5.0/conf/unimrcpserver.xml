@@ -111,9 +111,10 @@
 
     <!-- Factory of plugins (MRCP engines) -->
     <plugin-factory>
-      <engine id="Demo-Synth-1" name="demosynth" enable="true"/>
-      <engine id="Demo-Recog-1" name="demorecog" enable="true"/>
-      <engine id="Demo-Verifier-1" name="demoverifier" enable="true"/>
+	  <engine id="Demo-Recog-1" name="demorecog" enable="false"/>
+	  <engine id="XFyun-Recog-1" name="xfyunrecog" enable="true"/>
+	  <engine id="Demo-Synth-1" name="demorecog" enable="false"/>
+	  <engine id="XFyun-Synth-1" name="xfyunsynth" enable="true"/>
       <engine id="Recorder-1" name="mrcprecorder" enable="true"/>
 
       <!--

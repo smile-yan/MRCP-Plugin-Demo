@@ -1,7 +1,15 @@
 # MRCP-Plugin-Demo
-A demo repository for UniMRCP plugin implementation with iflytek ASR & TTS API
+> Forked from [https://github.com/cotinyang/MRCP-Plugin-Demo](https://github.com/cotinyang/MRCP-Plugin-Demo)
+>
+> 因为需要所以进行了一定修改。
 
-* [ASR](https://cotin.tech/AI/UniMRCPASR/)
-* [TTS](https://cotin.tech/AI/UniMRCPTTS/)
+### 使用帮助
 
-Attention, iflytek SDK do not support concurrent processing. This project just explains the workflow of plugin implementation.
+1. 下载这个 MRCP-Plugin-Demo
+2. 下载科大讯飞SDK。
+3. 编辑xfyun_recog_engine.c ，设置appid。
+4. 添加libmsc.so到/usr/lib。
+5. 编译安装MRCP-Plugin-Demo。
+
+#### 具体过程参考请参考以下地址
+
