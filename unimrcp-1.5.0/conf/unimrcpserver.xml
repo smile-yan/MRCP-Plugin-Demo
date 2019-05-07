@@ -166,8 +166,7 @@
       <mrcpv2-uas>MRCPv2-Agent-1</mrcpv2-uas>
       <media-engine>Media-Engine-1</media-engine>
       <rtp-factory>RTP-Factory-1</rtp-factory>
-      <rtp-settings>RTP-Settings-1</rtp-settings>
-
+     
       <!--
         Profile-based association of engines to resources. For example:
       -->
