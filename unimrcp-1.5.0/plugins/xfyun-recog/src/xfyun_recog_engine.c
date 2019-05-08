@@ -448,15 +448,7 @@ static apt_bool_t xfyun_recog_start_of_input(xfyun_recog_channel_t *recog_channe
 
 	/* set request state */
 	message->start_line.request_state = MRCP_REQUEST_STATE_INPROGRESS;
-	
-	// set message body data.    by Smileyan
-	message->body.buf = recog_channel->last_result;
-	message->body.length =  strlen(recog_channel->last_result);	
 
-	// log data that will be sent.      by Smileyan
-	apt_log(RECOG_LOG_MARK,APT_PRIO_INFO,"[xfyun] recog_channel->last_result == %s",recog_channel->last_result);
-	apt_log(RECOG_LOG_MARK,APT_PRIO_INFO,"[xfyun] message->header == %s message->body==%s",message->header,message->body);	
-	
 	/* send asynch event */
 	return mrcp_engine_channel_message_send(recog_channel->channel,message);
 }
