@@ -115,8 +115,7 @@
 	  <engine id="XFyun-Recog-1" name="xfyunrecog" enable="true"/>
 	  <engine id="Demo-Synth-1" name="demorecog" enable="false"/>
 	  <engine id="XFyun-Synth-1" name="xfyunsynth" enable="true"/>
-      <engine id="Recorder-1" name="mrcprecorder" enable="true"/>
-
+      
       <!--
         Engines may have additional named ("max-channel-count") and generic (name/value) parameters.
         For example:
